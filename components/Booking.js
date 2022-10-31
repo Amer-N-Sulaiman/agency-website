@@ -28,7 +28,7 @@ export default function Footer() {
 
           <div className="container mx-auto px-4">
             <div className="items-center flex flex-wrap">
-                <iframe width='100%' height='585px' src='https://zoho-amer241.zohobookings.com/portal-embed#/customer/mzeit' frameborder='0' allowfullscreen='' > 
+                <iframe title="booking-old" width='100%' height='585px' src='https://zoho-amer241.zohobookings.com/portal-embed#/customer/mzeit' frameBorder='0' allowFullScreen='' > 
                 </iframe>
               {/* <div className="w-full md:w-4/12 ml-auto mr-auto px-4">
                 <img
