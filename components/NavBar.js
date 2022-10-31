@@ -3,7 +3,6 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import logo from '../public/logo1.png'
-import Image from 'Next/Image'
 
 function NavBar() {
   return (
@@ -15,7 +14,7 @@ function NavBar() {
           
         </Navbar.Brand>
         <Nav className="me-auto">
-          <Nav.Link href="#low-prices" style={{marginLeft: "30px", color: 'White'}}>Reasons we charge very low</Nav.Link>
+          <Nav.Link href="#low-prices" style={{marginLeft: "30px", color: 'White'}}>Why we charge very low</Nav.Link>
         </Nav>
         <Nav className="">
           <Nav.Link href="#booking">Book Your Free Discovery Call</Nav.Link>
