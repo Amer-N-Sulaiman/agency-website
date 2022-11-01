@@ -263,7 +263,7 @@ export default function Landing() {
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
                 <div className="md:pr-12">
                   
-                  <h3 className="text-3xl font-semibold">Low cost and maximum results</h3>
+                  <h3 className="text-3xl font-semibold" style={{marginTop: '30px'}}>Low cost and maximum results</h3>
                   <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
                     Our core business model is to focus on generating the best results for our clients while cutting down on unnecessary expenses so we can offer our clients our services for the lowest fees in the industry.
                   </p>

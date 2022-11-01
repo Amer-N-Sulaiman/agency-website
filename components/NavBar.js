@@ -6,19 +6,23 @@ import logo from '../public/logo1.png'
 
 function NavBar() {
   return (
-    <Navbar collapseOnSelect expand="sm" fixed="top" variant='dark' style={{background: "rgba(0,0,0,0.4"}}>
+    <Navbar collapseOnSelect expand="sm" variant='dark' style={{background: "rgba(0,0,0,1"}}>
       <Container>
         <Navbar.Brand href="/">
           
           M Zeit
           
         </Navbar.Brand>
-        <Nav className="me-auto">
-          <Nav.Link href="#low-prices" style={{marginLeft: "30px", color: 'White'}}>Why we charge very low</Nav.Link>
-        </Nav>
-        <Nav className="">
-          <Nav.Link href="#booking">Book Your Free Discovery Call</Nav.Link>
-        </Nav>
+        <Navbar.Toggle aria-controls='response-navbar-nav' />
+        <Navbar.Collapse id='responsive-navbar-nav'>
+          <Nav className="me-auto">
+            <Nav.Link href="#low-prices" style={{marginLeft: "30px", color: 'White'}}>Why we charge very low</Nav.Link>
+          </Nav>
+          <Nav className="">
+            <Nav.Link href="#booking" style={{marginLeft: "30px", color: 'White'}}>Book Your Free Discovery Call</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+        
         
           {/* <Nav className="me-auto">
             <Nav.Link href="#features">Features</Nav.Link>
