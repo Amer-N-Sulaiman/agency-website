@@ -2,6 +2,7 @@
 import React from "react";
 import Link from "next/link";
 import {useState} from 'react'
+import Head from 'next/head'
 
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
@@ -51,6 +52,12 @@ export default function Landing() {
 
   return (
     <>
+      <Head>
+        <title>
+          M-ZEIT
+        </title>
+        <meta name="description" content="A digital marketing agency that helps businesses grow their brand and increase their sales top notch email marketing at the lowest fees possible"/>
+      </Head>
       <NavBar />
       <main>
         <div className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75">
