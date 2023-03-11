@@ -16,7 +16,7 @@ function NavBar() {
         <Navbar.Toggle aria-controls='response-navbar-nav' />
         <Navbar.Collapse id='responsive-navbar-nav'>
           <Nav className="me-auto">
-            <Nav.Link href="#low-prices" style={{marginLeft: "30px", color: 'White'}}>Why we charge very low</Nav.Link>
+            {/* <Nav.Link href="#low-prices" style={{marginLeft: "30px", color: 'White'}}>Why we charge very low</Nav.Link> */}
           </Nav>
           <Nav className="">
             <Nav.Link href="#booking" style={{marginLeft: "30px", color: 'White'}}>Book Your Free Discovery Call</Nav.Link>

@@ -388,8 +388,7 @@ export default function Landing() {
             <div className="flex flex-wrap justify-center lg:-mt-64 -mt-48">
               {/* <div className="w-full lg:w-6/12 px-4"> */}
               <div className="w-full px-4">
-                <iframe title="booking" id="booking" style={{borderRadius: "10px"}} width='100%' height='585px' src='https://zoho-amer241.zohobookings.com/portal-embed#/customer/mzeit' frameBorder='0' allowFullScreen='' > 
-                </iframe>
+                <iframe id="booking" src="https://koalendar.com/e/meet-with-amer-sulaiman?embed=true" width="100%" height="800px" frameborder="0"></iframe>
                 {/* <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-200">
                   <div className="flex-auto p-5 lg:p-10">
                     <h4 className="text-2xl font-semibold">

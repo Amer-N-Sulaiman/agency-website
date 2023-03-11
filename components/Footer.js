@@ -35,7 +35,7 @@ export default function Footer() {
                 
                   <EmailRoundedIcon color='primary' fontSize='large' style={{marginRight: '10px'}}/>
                   
-                  amer@m-zeit.com
+                  support@m-zeit.com
               </div>
             </div>
             {/* <div className="w-full lg:w-6/12 px-4">
