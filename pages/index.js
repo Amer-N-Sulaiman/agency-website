@@ -143,8 +143,25 @@ export default function Landing() {
                 </div>
               </div>
 
+              
+
               <div className="w-full md:w-4/12 px-4 text-center">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                <div className="px-4 py-5 flex-auto">
+                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400">
+                      <i className="fas fa-fingerprint"></i>
+                    </div>
+                    <h6 className="text-xl font-semibold">Generate +30% Of Your Total Revenue From Email Marketing</h6>
+                    <p className="mt-2 mb-4 text-blueGray-500">
+                      Implementing our Email Marketing systems makes it virtually impossible to not make Email generate 30% of your total revenue.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="pt-6 w-full md:w-4/12 px-4 text-center">
+                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                  
                   <div className="px-4 py-5 flex-auto">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-lightBlue-400">
                       <i className="fas fa-retweet"></i>
@@ -156,21 +173,9 @@ export default function Landing() {
                   </div>
                 </div>
               </div>
-
-              <div className="pt-6 w-full md:w-4/12 px-4 text-center">
-                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
-                  <div className="px-4 py-5 flex-auto">
-                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400">
-                      <i className="fas fa-fingerprint"></i>
-                    </div>
-                    <h6 className="text-xl font-semibold">Establish Your Brand Image</h6>
-                    <p className="mt-2 mb-4 text-blueGray-500">
-                      We craft Emails with a consistent design to keep your customers reminded of your brand until an powerful image of your brand is established in the customers mind.
-                    </p>
-                  </div>
-                </div>
-              </div>
             </div>
+
+              
 
             <div className="flex flex-wrap items-center mt-32">
               <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
@@ -190,7 +195,7 @@ export default function Landing() {
                    We craft consistent Email campaigns to remind your customers of your brand and harness the events that are going on in the world to give the customers very tempting offers.
                 </p>
                 <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
-                  We will also work with you, totally for free, on some issues you might be facing, like domain blacklisting and others.
+                  We also offer, our clients only, free services like Domain Reputation Restoration if needed. We offer these services to maximize the results we bring for our clients.
                 </p>
                 {/* <Link href="/">
                   <a href="#" className="font-bold text-blueGray-700 mt-8">
@@ -219,10 +224,14 @@ export default function Landing() {
                       ></polygon>
                     </svg>
                     <h4 className="text-xl font-bold">
-                      Third World Talents To Offer You The Best Results at The Lowest Prices
+                      The Team
                     </h4>
                     <p className="text-md mt-2">
-                      Most of our team members are professionals from 3rd world countries, where the cost of living is low. That allows us to charge you very low prices for the excellent results we bring.
+                      Our Team consists of highly talented individuals in the following roles:<br/>
+                      - Copywriter<br/>
+                      - Designer<br/>
+                      - Strategist<br/>
+                      - Clients Relations Manager
                     </p>
                     {/* <br />
                     <Link href="/">
@@ -260,12 +269,13 @@ export default function Landing() {
 
           <div id="low-prices" className="container mx-auto px-4">
             <div className="items-center flex flex-wrap">
-              <div className="w-full md:w-4/12 ml-auto mr-auto px-4">
+              <div className="w-full md:w-4/12 ml-auto mr-auto px-4" style={{maxHeight: "700px", overflow: "hidden"}}>
                 <img
                   alt="..."
                   className="max-w-full rounded-lg shadow-lg"
-                  src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+                  src="work-sample.gif"
                 />
+                {/* https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80 */}
               </div>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
                 <div className="md:pr-12">
@@ -339,10 +349,11 @@ export default function Landing() {
             <div className="flex flex-wrap text-center justify-center">
               <div className="w-full lg:w-6/12 px-4">
                 <h2 className="text-4xl font-semibold text-white" style={{marginTop: '60px'}}>
-                  Work with us for a brighter future for your business
+                  Do You Qualify For The Pay-Per-Results Plan?
                 </h2>
                 <p className="text-lg leading-relaxed mt-4 mb-4 text-blueGray-400">
-                  Our main objective is that our customers will be, at the very least, better off working with us than they were before. And they will know that they have made the correct decision.
+                  We offer a plan where you only pay a percentage of the profit we add to the profit you&apos;ve been generating before with no upfront cost.
+                  <br/><b>Book a call below to discuss if you qualify.</b>
                 </p>
               </div>
             </div>
