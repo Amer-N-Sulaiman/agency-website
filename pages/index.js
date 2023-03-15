@@ -151,7 +151,7 @@ export default function Landing() {
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400">
                       <i className="fas fa-fingerprint"></i>
                     </div>
-                    <h6 className="text-xl font-semibold">Generate +30% Of Your Total Revenue From Email Marketing</h6>
+                    <h6 className="text-xl font-semibold">Generate 4$ extra from Email Marketing for every 10$ of revenue from other channels</h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
                       Implementing our Email Marketing systems makes it virtually impossible to not make Email generate 30% of your total revenue.
                     </p>
@@ -175,79 +175,9 @@ export default function Landing() {
               </div>
             </div>
 
-              
-
-            <div className="flex flex-wrap items-center mt-32">
-              <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
-                <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
-                  <i className="fas fa-user-friends text-xl">
-                    <MiscellaneousServicesIcon fontSize='large' color='primary' />
-                  </i>
-                </div>
-                <h4>What We Offer</h4>
-                <h3 className="text-3xl mb-2 font-semibold leading-normal" style={{color: '#1976D2'}}>
-                  Top Notch Email Marketing
-                </h3>
-                <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                  We implement Email flows that get triggered automatically to send customers corresponding, highly personalized, emails. These Email flows will continue earning you money even after finishing working with us.
-                </p>
-                <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
-                   We craft consistent Email campaigns to remind your customers of your brand and harness the events that are going on in the world to give the customers very tempting offers.
-                </p>
-                <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
-                  We also offer, our clients only, free services like Domain Reputation Restoration if needed. We offer these services to maximize the results we bring for our clients.
-                </p>
-                {/* <Link href="/">
-                  <a href="#" className="font-bold text-blueGray-700 mt-8">
-                    Read more about our services in detail.
-                  </a>
-                </Link> */}
-              </div>
-
-              <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
-                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
-                  <img
-                    alt="..."
-                    src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80"
-                    className="w-full align-middle rounded-t-lg"
-                  />
-                  <blockquote className="relative p-8 mb-4">
-                    <svg
-                      preserveAspectRatio="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 583 95"
-                      className="absolute left-0 w-full block h-95-px -top-94-px"
-                    >
-                      <polygon
-                        points="-30,95 583,95 583,65"
-                        className="text-blueGray-700 fill-current"
-                      ></polygon>
-                    </svg>
-                    <h4 className="text-xl font-bold">
-                      The Team
-                    </h4>
-                    <p className="text-md mt-2">
-                      Our Team consists of highly talented individuals in the following roles:<br/>
-                      - Copywriter<br/>
-                      - Designer<br/>
-                      - Strategist<br/>
-                      - Clients Relations Manager
-                    </p>
-                    {/* <br />
-                    <Link href="/">
-                      <a href="#pablo" className="font-bold text-blueGray-700 mt-8" style={{color: 'gray'}}>
-                        Read more about the pricing of our services
-                      </a>
-                    </Link> */}
-                  </blockquote>
-                </div>
-              </div>
             </div>
-          </div>
-        </section>
 
-        <section className="relative py-20">
-          <div
+            <div
             className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
             style={{ transform: "translateZ(0)" }}
           >
@@ -273,14 +203,43 @@ export default function Landing() {
                 <img
                   alt="..."
                   className="max-w-full rounded-lg shadow-lg"
-                  src="work-sample.gif"
+                  src="work-sample-s.gif"
                 />
                 {/* https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80 */}
               </div>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
+                <div className="">
+                  <div 
+                  className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700"
+                    style={{marginTop: "30px"}}
+                    >
+                    <img
+                      alt="..."
+                      src="testimonial.png"
+                      // 
+                      className="w-full align-middle rounded-t-lg"
+                      style={{}}
+                    />
+                    
+                  </div>
+                </div>
                 <div className="md:pr-12">
-                  
-                  <h3 className="text-3xl font-semibold" style={{marginTop: '30px'}}>Low cost and maximum results</h3>
+                  <div className="">
+                  <div 
+                  className="relative flex flex-col min-w-0 break-words w-full mb-6"
+                  style={{marginTop: "60px", float: 'right'}}
+                  >
+                    <img
+                      alt="..."
+                      src="stats.png"
+                      // 
+                      className="w-full align-middle rounded-t-lg"
+                      style={{}}
+                    />
+                    
+                  </div>
+                </div>
+                  {/* <h3 className="text-3xl font-semibold" style={{marginTop: '30px'}}>Low cost and maximum results</h3>
                   <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
                     Our core business model is to focus on generating the best results for our clients while cutting down on unnecessary expenses so we can offer our clients our services for the lowest fees in the industry.
                   </p>
@@ -313,13 +272,15 @@ export default function Landing() {
                         Almost all of our profit is a percentage of the profit we bring to our clients.
                       </ListItemText>
                     </ListItem>
-                  </List>
+                  </List> */}
 
                 </div>
               </div>
             </div>
           </div>
         </section>
+
+        
         {/* <section id="booking">
           <Booking />
         </section> */}
@@ -471,6 +432,76 @@ export default function Landing() {
               </div>
             </div>
           </div>
+        </section>
+        <section className="relative py-20">
+          <div className="flex flex-wrap items-center mt-32">
+              <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
+                <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
+                  <i className="fas fa-user-friends text-xl">
+                    <MiscellaneousServicesIcon fontSize='large' color='primary' />
+                  </i>
+                </div>
+                <h4>What We Offer</h4>
+                <h3 className="text-3xl mb-2 font-semibold leading-normal" style={{color: '#1976D2'}}>
+                  Top Notch Email Marketing
+                </h3>
+                <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
+                  We implement Email flows that get triggered automatically to send customers corresponding, highly personalized, emails. These Email flows will continue earning you money even after finishing working with us.
+                </p>
+                <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
+                   We craft consistent Email campaigns to remind your customers of your brand and harness the events that are going on in the world to give the customers very tempting offers.
+                </p>
+                <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
+                  We also offer, our clients only, free services like Domain Reputation Restoration if needed. We offer these services to maximize the results we bring for our clients.
+                </p>
+                {/* <Link href="/">
+                  <a href="#" className="font-bold text-blueGray-700 mt-8">
+                    Read more about our services in detail.
+                  </a>
+                </Link> */}
+              </div>
+
+              <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
+                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
+                  <img
+                    alt="..."
+                    src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80"
+                    // 
+                    className="w-full align-middle rounded-t-lg"
+                  />
+                  <blockquote className="relative p-8 mb-4">
+                    {/* <svg
+                      preserveAspectRatio="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 583 95"
+                      className="absolute left-0 w-full block h-95-px -top-94-px"
+                    >
+                      <polygon
+                        points="-30,95 583,95 583,65"
+                        className="text-blueGray-700 fill-current"
+                      ></polygon>
+                    </svg> */}
+                    <h4 className="text-xl font-bold">
+                      The Team
+                    </h4>
+                    <p className="text-md mt-2">
+                      Our Team consists of highly talented individuals in the following roles:<br/>
+                      - Copywriter<br/>
+                      - Designer<br/>
+                      - Strategist<br/>
+                      - Clients Relations Manager
+                    </p>
+                    {/* <br />
+                    <Link href="/">
+                      <a href="#pablo" className="font-bold text-blueGray-700 mt-8" style={{color: 'gray'}}>
+                        Read more about the pricing of our services
+                      </a>
+                    </Link> */}
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          
         </section>
 
       </main>
