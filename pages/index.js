@@ -199,11 +199,11 @@ export default function Landing() {
 
           <div id="low-prices" className="container mx-auto px-4">
             <div className="items-center flex flex-wrap">
-              <div className="w-full md:w-4/12 ml-auto mr-auto px-4" style={{maxHeight: "700px", overflow: "hidden"}}>
+              <div className="w-full md:w-4/12 ml-auto mr-auto px-4" style={{maxHeight: "700px", overflow: ""}}>
                 <img
                   alt="..."
                   className="max-w-full rounded-lg shadow-lg"
-                  src="work-sample.gif"
+                  src="work-sample-s.gif"
                 />
                 {/* https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80 */}
               </div>
@@ -227,11 +227,11 @@ export default function Landing() {
                   <div className="">
                   <div 
                   className="relative flex flex-col min-w-0 break-words w-full mb-6"
-                  style={{marginTop: "60px", float: 'right'}}
+                  style={{marginTop: "30px", float: 'right'}}
                   >
                     <img
                       alt="..."
-                      src="stats.png"
+                      src="stats-t.png"
                       // 
                       className="w-full align-middle rounded-t-lg"
                       style={{}}
