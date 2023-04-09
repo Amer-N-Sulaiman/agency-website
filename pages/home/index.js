@@ -4,24 +4,18 @@ import Link from "next/link";
 import {useState} from 'react'
 import Head from 'next/head'
 
-import { useRouter } from 'next/router'
-
-
-
-
 
 // components
 
-import NavBar from "../components/NavBar.js";
-import Footer from "../components/Footer.js";
+import NavBar from "../../components/NavBar.js";
+import Footer from "../../components/Footer.js";
 
 import MiscellaneousServicesIcon from '@mui/icons-material/MiscellaneousServices';
 
 import axios from 'axios';
 
-export default function Landing() {
-  const router = useRouter()
-  console.log(router.or)
+function Landing() {
+  
 
 
   return (
@@ -329,3 +323,10 @@ export default function Landing() {
     </>
   );
 }
+
+Landing.getInitialProps = async (ctx) => {
+  const res = await fetch('https://mzeit.pythonanywhere.com/click')
+  return { stars: res}
+}
+
+export default Landing
